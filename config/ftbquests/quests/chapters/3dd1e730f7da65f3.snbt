@@ -1,0 +1,102 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3dd1e730f7da65f3"
+	group: "66C25DCE51E776D3"
+	icon: {
+		components: {
+			"minecraft:custom_data": {
+				GunCurrentAmmoCount: 9
+				GunFireMode: "SEMI"
+				GunId: "tacz:deagle_golden"
+				HasBulletInBarrel: 1b
+			}
+		}
+		id: "tacz:modern_kinetic_gun"
+	}
+	id: "3DD1E730F7DA65F3"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["11FB8C2C61ED38FF"]
+			hide_until_deps_complete: true
+			id: "234FE3005427E02A"
+			rewards: [
+				{
+					id: "1928F2407C2E86B7"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								BlockId: "tacz:ammo_workbench"
+							}
+						}
+						count: 1
+						id: "tacz:workbench_a"
+					}
+					type: "item"
+				}
+				{
+					id: "1AA8270844F45D0A"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								BlockId: "tacz:attachment_workbench"
+							}
+						}
+						count: 1
+						id: "tacz:workbench_c"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "7548858CC6A1C303"
+				item: { count: 1, id: "tacz:gun_smith_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["234FE3005427E02A"]
+			id: "5299540BCF94A648"
+			rewards: [{
+				count: 42
+				id: "1C928C98D2EA8005"
+				item: {
+					components: {
+						"minecraft:custom_data": {
+							AmmoId: "tacz:500mag"
+						}
+						"minecraft:max_stack_size": 42
+					}
+					count: 1
+					id: "tacz:ammo"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C693F9B3CD06298"
+				item: { count: 1, id: "tacz:target" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5299540BCF94A648"]
+			id: "0A36E1D903490529"
+			tasks: [{
+				id: "6722E0C0E72385A6"
+				item: { count: 1, id: "tacz:target_minecart" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+}

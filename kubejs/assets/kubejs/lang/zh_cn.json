@@ -1,0 +1,18 @@
+{
+      "gateways.basic/zombie": "僵尸之门",
+      "block.kubejs.andesite_machine": "安山机械",
+      "block.kubejs.copper_machine": "密封机械",
+      "block.kubejs.brass_machine": "黄铜机械",
+      "block.kubejs.redstone_machine": "红石机械",
+      "item.kubejs.andesite_mechanism": "安山构件",
+      "item.kubejs.copper_mechanism": "密封构件",
+      "item.kubejs.pressure_mechanism": "压力构件",
+      "item.kubejs.computer_mechanism": "算力构件",
+      "item.kubejs.gravitation_mechanism": "重力构件",
+      "item.kubejs.incomplete_andesite_mechanism": "安山构件（半成品）",
+      "item.kubejs.incomplete_copper_mechanism": "密封构件（半成品）",
+      "item.kubejs.incomplete_pressure_mechanism": "压力构件（半成品）",
+      "item.kubejs.incomplete_computer_mechanism": "算力构件（半成品）",
+      "item.kubejs.incomplete_gravitation_mechanism": "重力构件（半成品）",
+      "item.kubejs.circuit_scrap": "电路废料"
+}

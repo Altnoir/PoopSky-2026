@@ -1,0 +1,165 @@
+{
+	hide_tooltip: true
+	icon: {
+		id: "minecraft:nether_star"
+	}
+	id: "6CF4AFFBD0F834E8"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			id: "67243021E4D48BAC"
+			item: {
+				count: 1
+				id: "poopsky:fasting_pill"
+			}
+			weight: 0.03f
+		}
+		{
+			id: "294BE06ABD2622CE"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 0.05f
+		}
+		{
+			id: "7455EC3CD9246785"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+			weight: 0.01f
+		}
+		{
+			id: "07D2F8DB70B59407"
+			item: {
+				count: 1
+				id: "farmersdelight:onion"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "28213852F5F80488"
+			item: {
+				count: 1
+				id: "farmersdelight:tomato"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "37937B26584D42AE"
+			item: {
+				count: 1
+				id: "farmersdelight:cabbage"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "6CFBE797F4371B39"
+			item: {
+				count: 1
+				id: "farmersdelight:rice_panicle"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "3B61EA2DA5C68C7F"
+			item: {
+				count: 1
+				id: "poopsky:poop_mooncake"
+			}
+			weight: 4.0f
+		}
+		{
+			id: "500BFDDC8D990E04"
+			item: {
+				count: 1
+				id: "poopsky:chili_poop_mooncake"
+			}
+			weight: 4.0f
+		}
+		{
+			id: "32E095BF50EC114D"
+			item: {
+				count: 1
+				id: "poopsky:golden_poop_mooncake"
+			}
+			weight: 4.0f
+		}
+		{
+			id: "436DE5A2546D85DC"
+			item: {
+				count: 1
+				id: "poopsky:baked_maggots"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "443C9021BCB42163"
+			item: {
+				count: 1
+				id: "poopsky:poop_bread"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "1F8A3F6C42C3D9D7"
+			item: {
+				count: 1
+				id: "poopsky:poop_dumplings"
+			}
+			weight: 2.5f
+		}
+		{
+			id: "1C0FDF49DF4D353F"
+			item: {
+				count: 1
+				id: "poopsky:poop_soup"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "12C4EC2CCD75F069"
+			item: {
+				count: 1
+				id: "poopsky:poop_vegetable_sticks"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "433614C383B0A510"
+			item: {
+				count: 1
+				id: "poopsky:pooburger_meat"
+			}
+			weight: 4.5f
+		}
+		{ id: "0E08BFD189FE39C2", item: { count: 1, id: "poopsky:pooburger" } }
+		{
+			id: "792507A4BC38240F"
+			item: {
+				count: 1
+				id: "poopsky:poop_pasta"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "07D6C9902CB0D602"
+			item: {
+				count: 1
+				id: "poopsky:poodding"
+			}
+			weight: 4.5f
+		}
+		{
+			id: "63A64E725AC7FD1D"
+			item: {
+				count: 1
+				id: "poopsky:poopsicle"
+			}
+			weight: 2.5f
+		}
+	]
+	use_title: true
+}

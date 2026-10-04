@@ -1,0 +1,71 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "30ff87f27b2decf0"
+	group: ""
+	icon: {
+		id: "minecraft:command_block"
+	}
+	id: "30FF87F27B2DECF0"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "poopsky:golden_shit"
+			}
+			id: "73AEA4CD533E9CCD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "112D52A194225D4D"
+				table_id: 1541852841759475773L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E7AAE5DE19CE879"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:command_block"
+			}
+			id: "652168637E0A7D88"
+			rewards: [{
+				command: "/gamerule keepInventory true"
+				id: "13D92ECD615C408E"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4CF2FF13E696DE7D"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				components: {
+					"patchouli:book": "poopsky:guide"
+				}
+				id: "patchouli:guide_book"
+			}
+			id: "14C2B77C6F7D13EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D6F39F45BD35D93"
+				table_id: 1541852841759475773L
+				type: "random"
+			}]
+			tasks: [{
+				id: "301CB60E0C098FF6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+	]
+}

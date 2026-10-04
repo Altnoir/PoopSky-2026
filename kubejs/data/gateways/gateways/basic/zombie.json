@@ -1,0 +1,277 @@
+{
+    "size": "small",
+    "color": "#206020",
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:zombie",
+                    "nbt": {
+                        "Size": 1
+                    },
+                    "count": 5,
+                    "finalize_spawn": false
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:zombie",
+                    "nbt": {
+                        "Size": 0
+                    },
+                    "rolls": 10
+                }
+            ],
+            "max_wave_time": 800,
+            "setup_time": 100
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:zombie",
+                    "nbt": {
+                        "Size": 3
+                    },
+                    "count": 5,
+                    "finalize_spawn": false
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "add_multiplied_total",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "add_value",
+                    "value": 2
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "add_multiplied_total",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "add_value",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "add_multiplied_total",
+                    "value": 0.05
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:zombie",
+                    "nbt": {
+                        "Size": 0
+                    },
+                    "rolls": 15
+                }
+            ],
+            "max_wave_time": 800,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:zombie",
+                    "modifiers": [
+                        {
+                            "attribute": "apothic_attributes:armor_shred",
+                            "operation": "add_value",
+                            "value": 0.5
+                        },
+                        {
+                            "attribute": "apothic_attributes:fire_damage",
+                            "operation": "add_value",
+                            "value": 2
+                        }
+                    ],
+                    "count": 5,
+                    "finalize_spawn": false
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "add_multiplied_total",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "add_value",
+                    "value": 2
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "add_multiplied_total",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "add_value",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "add_multiplied_total",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:zombie",
+                    "nbt": {
+                        "Size": 0
+                    },
+                    "rolls": 20
+                }
+            ],
+            "max_wave_time": 1200,
+            "setup_time": 200
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:zombie",
+                    "modifiers": [
+                        {
+                            "attribute": "apothic_attributes:prot_shred",
+                            "operation": "add_value",
+                            "value": 0.5
+                        },
+                        {
+                            "attribute": "apothic_attributes:cold_damage",
+                            "operation": "add_value",
+                            "value": 2
+                        }
+                    ],
+                    "count": 5,
+                    "finalize_spawn": false
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "add_multiplied_total",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "add_value",
+                    "value": 2
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "add_multiplied_total",
+                    "value": 0.2
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "add_value",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "add_multiplied_total",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:zombie",
+                    "nbt": {
+                        "Size": 0
+                    },
+                    "rolls": 25
+                }
+            ],
+            "max_wave_time": 1800,
+            "setup_time": 280
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:zombie",
+                    "modifiers": [],
+                    "count": 2,
+                    "finalize_spawn": false
+                },
+                {
+                    "entity": "minecraft:zombie",
+                    "modifiers": [
+                        {
+                            "attribute": "apothic_attributes:prot_shred",
+                            "operation": "add_value",
+                            "value": 0.5
+                        },
+                        {
+                            "attribute": "apothic_attributes:cold_damage",
+                            "operation": "add_value",
+                            "value": 2
+                        }
+                    ],
+                    "count": 4,
+                    "finalize_spawn": false
+                },
+                {
+                    "entity": "minecraft:zombie",
+                    "modifiers": [
+                        {
+                            "attribute": "apothic_attributes:armor_shred",
+                            "operation": "add_value",
+                            "value": 0.5
+                        },
+                        {
+                            "attribute": "apothic_attributes:fire_damage",
+                            "operation": "add_value",
+                            "value": 2
+                        }
+                    ],
+                    "count": 4,
+                    "finalize_spawn": false
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.armor",
+                    "operation": "add_value",
+                    "value": 4
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "add_value",
+                    "value": 0.20
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:experience",
+                    "experience": 500,
+                    "orb_size": 25
+                }
+            ],
+            "max_wave_time": 2600,
+            "setup_time": 200
+        }
+    ],
+    "rewards": [
+        {
+            "type": "gateways:entity_loot",
+            "entity": "minecraft:zombie",
+            "nbt": {
+                "Size": 0
+            },
+            "rolls": 100
+        }
+    ],
+    "failures": []
+}

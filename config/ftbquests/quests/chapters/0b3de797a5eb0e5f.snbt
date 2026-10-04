@@ -1,0 +1,242 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0b3de797a5eb0e5f"
+	group: "66C25DCE51E776D3"
+	icon: {
+		id: "netmusic:music_player"
+	}
+	id: "0B3DE797A5EB0E5F"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "22614108383C5B41"
+			tasks: [{
+				id: "3F2159F2AB30A1B9"
+				item: { count: 1, id: "netmusic:music_player" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3B3153310F2353C4"
+			tasks: [{
+				id: "6332CEDA7C4A75EB"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "2EB6799CC2899C6E"
+			rewards: [{
+				count: 64
+				id: "5519C5A5D491ADED"
+				item: {
+					count: 1
+					id: "minecraft:red_wool"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FC5D2337589BD5E"
+				item: { count: 1, id: "touhou_little_maid:hakurei_gohei" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "763FADBA7AF1806E"
+			tasks: [{
+				id: "045D0CC3C03AC8AE"
+				item: { count: 1, id: "exposure:camera" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22614108383C5B41"]
+			id: "3C7DE573C2AC0503"
+			tasks: [{
+				id: "31891B5A4AD82DBB"
+				item: { count: 1, id: "netmusic:cd_burner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22614108383C5B41"]
+			id: "4E947496EBB8DF38"
+			tasks: [{
+				id: "6EB2D650D16D0D2D"
+				item: { count: 1, id: "netmusic:computer" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22614108383C5B41"]
+			id: "695EDC093545075C"
+			tasks: [{
+				id: "1DC868DA2E4313B6"
+				item: { count: 1, id: "netmusic:big_megaphone" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B3153310F2353C4"]
+			id: "129244A9391AB53B"
+			tasks: [{
+				id: "4C262153D0A46114"
+				item: { components: { "ftbquests:missing_item": "ends_delight:end_stove" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3B3153310F2353C4"]
+			id: "484D4BF76E3C98BB"
+			tasks: [{
+				id: "6AE0664A6B9FEBD3"
+				item: { count: 1, id: "mynethersdelight:nether_bricks_stove" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "4D43487551D0CEC3"
+			tasks: [{
+				id: "752AD74EE6C99413"
+				item: { count: 1, id: "exposure:lightroom" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "2BDDBA3BC75A348A"
+			tasks: [{
+				id: "73B49BCC7EFFE987"
+				item: { count: 1, id: "exposure:photograph_frame" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "739EC7BDB81AF641"
+			tasks: [{
+				id: "3660FB4535A984F0"
+				item: { count: 1, id: "exposure:black_and_white_film" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "0CB202C065A4EC50"
+			tasks: [{
+				id: "6EE3356011839056"
+				item: { count: 1, id: "exposure:color_film" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "2999A5FF8C7CCC3E"
+			tasks: [{
+				id: "140D49476C86B678"
+				item: { count: 1, id: "exposure:high_sensitivity_black_and_white_film" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "53F83A88C18810B4"
+			tasks: [{
+				id: "5BBD2B7354D0377C"
+				item: { count: 1, id: "exposure:high_sensitivity_color_film" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "1601E0481F54CD47"
+			tasks: [{
+				id: "33DEBFE026C36764"
+				item: { count: 1, id: "exposure:photograph" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "79D631A1FA7EB02C"
+			tasks: [{
+				id: "17B89C18C8BF69DE"
+				item: { count: 1, id: "exposure:developed_black_and_white_film" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			id: "4D175449DC8DB193"
+			tasks: [{
+				id: "479744050317086C"
+				item: { count: 1, id: "exposure:developed_color_film" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2EB6799CC2899C6E"]
+			id: "14E84EF06E486ADC"
+			tasks: [{
+				id: "033E1BFDA641763B"
+				item: { count: 1, id: "touhou_little_maid:gomoku" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2EB6799CC2899C6E"]
+			id: "24809FF72327F3A8"
+			tasks: [{
+				id: "6B0104124324B647"
+				item: { count: 1, id: "touhou_little_maid:cchess" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2EB6799CC2899C6E"]
+			id: "6EA31E0ADA276513"
+			tasks: [{
+				id: "0392C9F4FF4ABAE8"
+				item: { count: 1, id: "touhou_little_maid:wchess" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+	]
+}

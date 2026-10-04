@@ -1,0 +1,50 @@
+/reload
+/kjs hand
+/reload
+/relk
+/reload
+/kjs hand
+/reload
+/kjs hand
+/reload
+/kjs hand
+/reload
+/kjs hand
+/reload
+/viscript_shop editor
+/viscript_shop money
+/viscript_shop money get
+/viscript_shop editor
+/viscript_shop editor poopshop
+/viscript_shop editor new
+/reload
+/probejs
+/kjs hand
+/reload
+/projecte setemc 4
+/reload
+/projecte setemc 8
+/reload
+/projecte setemc 1
+/projecte setemc 3
+/projecte setemc 5
+/reload
+/projecte setemc 6
+/projecte setemc 2
+/projecte setemc 192
+/projecte setemc 256
+/projecte setemc 1024
+/projecte setemc 7497
+/reload
+/projecte setemc 16
+/reload
+/projecte setemc 768
+/reload
+/kjs hand
+/reload
+/kubejs errors server
+/kjs hand
+/reload
+/kubejs errors server
+/reload
+/summon minecraft:iron_golem

@@ -1,0 +1,135 @@
+{
+	id: "02DDCE6C7107262C"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 325
+			id: "701D38F0E51DD311"
+			item: {
+				count: 1
+				id: "poopsky:white_tile_block"
+			}
+		}
+		{
+			count: 325
+			id: "70A8BF5DECAAE499"
+			item: {
+				count: 1
+				id: "poopsky:gray_tile_block"
+			}
+		}
+		{
+			count: 325
+			id: "4328D046E6F02F5E"
+			item: {
+				count: 1
+				id: "poopsky:light_gray_tile_block"
+			}
+		}
+		{
+			count: 325
+			id: "71E538AE87D5E962"
+			item: {
+				count: 1
+				id: "poopsky:black_tile_block"
+			}
+		}
+		{
+			count: 325
+			id: "65E64AE046E3A9EB"
+			item: {
+				count: 1
+				id: "poopsky:brown_tile_block"
+			}
+		}
+		{
+			count: 325
+			id: "45BEB7D0C44EA38B"
+			item: {
+				count: 1
+				id: "poopsky:red_tile_block"
+			}
+		}
+		{
+			count: 325
+			id: "3A0931B265E0A499"
+			item: {
+				count: 1
+				id: "poopsky:orange_tile_block"
+			}
+		}
+		{
+			count: 325
+			id: "2BF53ADCB7031D37"
+			item: {
+				count: 1
+				id: "poopsky:yellow_tile_block"
+			}
+		}
+		{
+			count: 325
+			id: "69BDBF85B7E950AA"
+			item: {
+				count: 1
+				id: "poopsky:lime_tile_block"
+			}
+		}
+		{
+			count: 325
+			id: "2995E43015A8486C"
+			item: {
+				count: 1
+				id: "poopsky:green_tile_block"
+			}
+		}
+		{
+			count: 325
+			id: "5D4940803B98471B"
+			item: {
+				count: 1
+				id: "poopsky:cyan_tile_block"
+			}
+		}
+		{
+			count: 325
+			id: "7A96B5B239BD09C7"
+			item: {
+				count: 1
+				id: "poopsky:light_blue_tile_block"
+			}
+		}
+		{
+			count: 325
+			id: "449CBBE30CA03E39"
+			item: {
+				count: 1
+				id: "poopsky:blue_tile_block"
+			}
+		}
+		{
+			count: 325
+			id: "649EDC3BD3F4A1BA"
+			item: {
+				count: 1
+				id: "poopsky:purple_tile_block"
+			}
+		}
+		{
+			count: 325
+			id: "7BCBDCFC215BC8C5"
+			item: {
+				count: 1
+				id: "poopsky:magenta_tile_block"
+			}
+		}
+		{
+			count: 325
+			id: "5CBA1C65EC4DD170"
+			item: {
+				count: 1
+				id: "poopsky:pink_tile_block"
+			}
+		}
+	]
+}

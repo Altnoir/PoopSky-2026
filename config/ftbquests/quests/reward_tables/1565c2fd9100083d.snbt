@@ -1,0 +1,17 @@
+{
+	icon: {
+		id: "minecraft:ghast_tear"
+	}
+	id: "1565C2FD9100083D"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ id: "3E905FCF841E4C03", item: { count: 1, id: "minecraft:spruce_sapling" } }
+		{ id: "5FE783D04A9ECAB3", item: { count: 1, id: "minecraft:birch_sapling" } }
+		{ id: "6878226C3716CE3C", item: { count: 1, id: "minecraft:jungle_sapling" } }
+		{ id: "68C6BF9C6F05BAAA", item: { count: 1, id: "minecraft:acacia_sapling" } }
+		{ id: "1F5A55305872B64A", item: { count: 1, id: "minecraft:dark_oak_sapling" } }
+		{ id: "223C468610A61478", item: { count: 1, id: "minecraft:oak_sapling" } }
+		{ id: "1F97497FACD0A0D3", item: { count: 1, id: "minecraft:cherry_sapling" } }
+	]
+}

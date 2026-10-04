@@ -1,0 +1,531 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0b3cee8edee2e46a"
+	group: "66C25DCE51E776D3"
+	icon: {
+		components: {
+			"poopsky:fly_type": "normal"
+		}
+		id: "poopsky:fly"
+	}
+	id: "0B3CEE8EDEE2E46A"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3A0ED0EE9666AAB0"]
+			hide_dependency_lines: true
+			id: "17969AEC01E14A8A"
+			tasks: [{
+				id: "5324E7645F0AADD1"
+				item: { components: { "poopsky:fly_type": "white" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3A0ED0EE9666AAB0"]
+			hide_dependency_lines: true
+			id: "263DF8125926986B"
+			tasks: [{
+				id: "5FB2BBB03FCA29FD"
+				item: { components: { "poopsky:fly_type": "black" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3A0ED0EE9666AAB0"]
+			hide_dependency_lines: true
+			id: "545402649DF2A830"
+			tasks: [{
+				id: "3E20487A4F968714"
+				item: { components: { "poopsky:fly_type": "red" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3A0ED0EE9666AAB0"]
+			hide_dependency_lines: true
+			id: "3F6AC04426C23292"
+			tasks: [{
+				id: "625F789E75FBDD00"
+				item: { components: { "poopsky:fly_type": "blue" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3A0ED0EE9666AAB0"]
+			hide_dependency_lines: true
+			id: "54481C486545D78E"
+			tasks: [{
+				id: "4EC46623904D22BD"
+				item: { components: { "poopsky:fly_type": "green" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"263DF8125926986B"
+				"17969AEC01E14A8A"
+			]
+			hide_dependency_lines: true
+			id: "59988685C904E651"
+			tasks: [{
+				id: "3DF70866296D6E5D"
+				item: { components: { "poopsky:fly_type": "gray" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"545402649DF2A830"
+				"17969AEC01E14A8A"
+			]
+			hide_dependency_lines: true
+			id: "3FD91F98F829A84C"
+			tasks: [{
+				id: "7980E0A4749C6D98"
+				item: { components: { "poopsky:fly_type": "pink" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"17969AEC01E14A8A"
+				"54481C486545D78E"
+			]
+			hide_dependency_lines: true
+			id: "01855FE246923416"
+			tasks: [{
+				id: "6F66685F19332C41"
+				item: { components: { "poopsky:fly_type": "lime" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"54481C486545D78E"
+				"3F6AC04426C23292"
+			]
+			hide_dependency_lines: true
+			id: "1A35AE50CE23BA20"
+			tasks: [{
+				id: "177E08D5CF423199"
+				item: { components: { "poopsky:fly_type": "cyan" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"545402649DF2A830"
+				"3F6AC04426C23292"
+			]
+			hide_dependency_lines: true
+			id: "27001793408C7C23"
+			tasks: [{
+				id: "2AC3D4E742D03630"
+				item: { components: { "poopsky:fly_type": "purple" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"17969AEC01E14A8A"
+				"3F6AC04426C23292"
+			]
+			hide_dependency_lines: true
+			id: "2666F81A04B157F7"
+			tasks: [{
+				id: "431C803F4390138E"
+				item: { components: { "poopsky:fly_type": "light_blue" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"545402649DF2A830"
+				"54481C486545D78E"
+			]
+			hide_dependency_lines: true
+			id: "7D01967D49AA3E57"
+			tasks: [{
+				id: "7C78C55529BD8CFD"
+				item: { components: { "poopsky:fly_type": "yellow" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"17969AEC01E14A8A"
+				"59988685C904E651"
+			]
+			hide_dependency_lines: true
+			id: "2856D4261D05F0B3"
+			tasks: [{
+				id: "203DEF125CC01F4D"
+				item: { components: { "poopsky:fly_type": "light_gray" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3FD91F98F829A84C"
+				"27001793408C7C23"
+			]
+			hide_dependency_lines: true
+			id: "66678928A27B7A5A"
+			tasks: [{
+				id: "085F7D1C0A5DADB1"
+				item: { components: { "poopsky:fly_type": "magenta" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"27001793408C7C23"
+				"1A35AE50CE23BA20"
+			]
+			hide_dependency_lines: true
+			id: "71BB95C72ABFCE4A"
+			tasks: [{
+				id: "0B417E1F14696495"
+				item: { components: { "poopsky:fly_type": "ender" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7D01967D49AA3E57"
+				"54481C486545D78E"
+			]
+			hide_dependency_lines: true
+			id: "2CE845C7C9CE19E7"
+			tasks: [{
+				id: "6D614795B4614A2F"
+				item: { components: { "poopsky:fly_type": "dragon_fruit" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"545402649DF2A830"
+				"7D01967D49AA3E57"
+			]
+			hide_dependency_lines: true
+			id: "34A6536758C73597"
+			tasks: [{
+				id: "3A4ACB09727C2444"
+				item: { components: { "poopsky:fly_type": "orange" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"17969AEC01E14A8A"
+				"34A6536758C73597"
+			]
+			hide_dependency_lines: true
+			id: "0AC746C129AED8FD"
+			tasks: [{
+				id: "25973F82333E8571"
+				item: { components: { "poopsky:fly_type": "copper" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2CE845C7C9CE19E7"
+				"7D01967D49AA3E57"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "52C02461E98C29C0"
+			tasks: [{
+				id: "49D8C7DA47493FCC"
+				item: { components: { "poopsky:fly_type": "glowstone" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0AC746C129AED8FD"
+				"17969AEC01E14A8A"
+			]
+			hide_dependency_lines: true
+			id: "15AD13F2576A6A59"
+			tasks: [{
+				id: "42AAF39739E5BC4F"
+				item: { components: { "poopsky:fly_type": "iron" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"52C02461E98C29C0"
+				"0AC746C129AED8FD"
+			]
+			hide_dependency_lines: true
+			id: "25FCDB7CA0864ECA"
+			tasks: [{
+				id: "5086D04427270F93"
+				item: { components: { "poopsky:fly_type": "gold" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"52C02461E98C29C0"
+				"263DF8125926986B"
+			]
+			hide_dependency_lines: true
+			id: "4F2752F9A65F6AB3"
+			tasks: [{
+				id: "67A4FFA87B73B074"
+				item: { components: { "poopsky:fly_type": "sky_dust" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"15AD13F2576A6A59"
+				"2856D4261D05F0B3"
+			]
+			hide_dependency_lines: true
+			id: "784E3DFAC15C0242"
+			tasks: [{
+				id: "569EA6C88FF48900"
+				item: { components: { "poopsky:fly_type": "tin" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"15AD13F2576A6A59"
+				"1A35AE50CE23BA20"
+			]
+			hide_dependency_lines: true
+			id: "2D2931A8B78DC7E1"
+			tasks: [{
+				id: "355B133EA0A263ED"
+				item: { components: { "poopsky:fly_type": "zinc" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"25FCDB7CA0864ECA"
+				"01855FE246923416"
+			]
+			hide_dependency_lines: true
+			id: "02696F9E7CF04CFC"
+			tasks: [{
+				id: "3A3A530422569C79"
+				item: { components: { "poopsky:fly_type": "emerald" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0EA33A26809848FB"]
+			hide_until_deps_complete: true
+			id: "3A0ED0EE9666AAB0"
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				id: "655D77CA54F46C03"
+				item: { count: 1, id: "poopsky:breeding_chest" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"15AD13F2576A6A59"
+				"784E3DFAC15C0242"
+			]
+			hide_dependency_lines: true
+			id: "70F1DD6D791E81C1"
+			tasks: [{
+				id: "43D63541DC12604D"
+				item: { components: { "poopsky:fly_type": "lead" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"02696F9E7CF04CFC"
+				"2CE845C7C9CE19E7"
+			]
+			hide_dependency_lines: true
+			id: "00BE6CD7F8F17A2F"
+			tasks: [{
+				id: "2E5EFFC71C6C6D52"
+				item: { components: { "poopsky:fly_type": "uranium" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"392E20AF7AA633AD"
+				"02696F9E7CF04CFC"
+			]
+			hide_dependency_lines: true
+			id: "4B685DCC1E09F831"
+			tasks: [{
+				id: "04809F0F466DE1A1"
+				item: { components: { "poopsky:fly_type": "netherite" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"02696F9E7CF04CFC"
+				"25FCDB7CA0864ECA"
+			]
+			hide_dependency_lines: true
+			id: "392E20AF7AA633AD"
+			tasks: [{
+				id: "4B0FA35A4AF801CE"
+				item: { components: { "poopsky:fly_type": "diamond" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"392E20AF7AA633AD"
+				"70F1DD6D791E81C1"
+			]
+			hide_dependency_lines: true
+			id: "3CEDFB0089B4F555"
+			tasks: [{
+				id: "5543339D8FC4D67D"
+				item: { components: { "poopsky:fly_type": "osmium" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"392E20AF7AA633AD"
+				"2666F81A04B157F7"
+			]
+			hide_dependency_lines: true
+			id: "25425B9AC3BB4723"
+			tasks: [{
+				id: "154CF00043E20C4D"
+				item: { components: { "poopsky:fly_type": "certus" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"3CEDFB0089B4F555"
+				"27001793408C7C23"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "16EBCBA8828B79F8"
+			tasks: [{
+				id: "794BFC7268CE8FE2"
+				item: { components: { "poopsky:fly_type": "fluorite" }, count: 1, id: "poopsky:fly" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+	]
+}

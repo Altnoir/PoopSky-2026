@@ -1,0 +1,74 @@
+{
+  "config_version": "2.0.28",
+  "config_datetime": "2026-07-09_19-32-55",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": false,
+    "enable_global_spacing_and_separation_modifier": false,
+    "global_spacing_and_separation_modifier": 1.0
+  },
+  "structure_namespaces": [
+    {
+      "name": "minecraft",
+      "is_disabled": false,
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_deep_ocean",
+        "#c:is_deep_ocean",
+        "#minecraft:is_river",
+        "#c:is_river"
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "name": "minecraft:monument",
+      "is_disabled": true
+    }
+  ],
+  "structure_sets": [
+    {
+      "spacing": 32,
+      "separation": 8,
+      "name": "ae2:meteorite",
+      "is_disabled": true,
+      "salt": 124895654,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "ae2:meteorite": 1
+      }
+    },
+    {
+      "spacing": 20,
+      "separation": 8,
+      "name": "minecraft:ocean_ruins",
+      "is_disabled": true,
+      "salt": 14357621,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:ocean_ruin_warm": 1,
+        "minecraft:ocean_ruin_cold": 1
+      }
+    },
+    {
+      "spacing": 24,
+      "separation": 4,
+      "name": "minecraft:shipwrecks",
+      "is_disabled": true,
+      "salt": 165745295,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:shipwreck_beached": 1,
+        "minecraft:shipwreck": 1
+      }
+    }
+  ],
+  "structure_template_pools": []
+}

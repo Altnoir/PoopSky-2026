@@ -1,0 +1,73 @@
+{
+  "comment": "Use the in-game commands to edit this file",
+  "entries": [
+    {
+      "id": "poopsky:chili_poop",
+      "emc": 4
+    },
+    {
+      "id": "poopsky:poop_ball",
+      "emc": 8
+    },
+    {
+      "id": "poopsky:sapling_poop_ball",
+      "emc": 8
+    },
+    {
+      "id": "poopsky:sea_poop_ball",
+      "emc": 8
+    },
+    {
+      "id": "poopsky:folium_sennae",
+      "emc": 1
+    },
+    {
+      "id": "poopsky:maggots_seeds",
+      "emc": 1
+    },
+    {
+      "id": "poopsky:urine_bottle",
+      "emc": 3
+    },
+    {
+      "id": "poopsky:poop_vegetable_sticks",
+      "emc": 5
+    },
+    {
+      "id": "poopsky:poop_pasta",
+      "emc": 6
+    },
+    {
+      "id": "poopsky:roundworm",
+      "emc": 2
+    },
+    {
+      "id": "poopsky:king_of_dragon_fruit",
+      "emc": 192
+    },
+    {
+      "id": "poopsky:dragon_breath_chili",
+      "emc": 256
+    },
+    {
+      "id": "poopsky:toilet_plug",
+      "emc": 1024
+    },
+    {
+      "id": "poopsky:omen_upgrade_smithing_template",
+      "emc": 7497
+    },
+    {
+      "id": "poopsky:saltpeter_shard",
+      "emc": 16
+    },
+    {
+      "id": "poopsky:urea",
+      "emc": 16
+    },
+    {
+      "id": "poopsky:urine_bucket",
+      "emc": 768
+    }
+  ]
+}

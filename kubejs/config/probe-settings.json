@@ -1,0 +1,13 @@
+{
+    "probejs.modHash": -2,
+    "probejs.enableDecompiler": true,
+    "probejs.newGame": false,
+    "probejs.fullScanMods": [
+        "minecraft",
+        "kubejs",
+        "neoforge",
+        "taczjs",
+        "kubejsprojecte"
+    ],
+    "probejs.hintsForLLM": false
+}

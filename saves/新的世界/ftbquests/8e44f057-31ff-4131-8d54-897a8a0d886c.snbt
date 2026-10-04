@@ -1,0 +1,18 @@
+{
+	version: 1
+	uuid: "8e44f05731ff41318d54897a8a0d886c"
+	name: "ALTNOIR#8e44f057"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	repeatable: { }
+	completion_count: { }
+	claimed_rewards: { }
+	player_data: {
+		8e44f05731ff41318d54897a8a0d886c: {
+			can_edit: 1b
+		}
+	}
+}
