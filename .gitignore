@@ -19,3 +19,9 @@
 .tacz_backup
 .xaero
 .XaeroWaypoints_BACKUP240807
+
+.ponders_watched_azimuth.json
+.ponders_watched.json
+.user-prefs.json
+.usercache.json
+.usernamecache.json
