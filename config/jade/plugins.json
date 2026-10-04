@@ -52,16 +52,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "neoecoae": {
-    "large_workstation_current_inputs": true,
-    "eco_computation_system": true,
-    "eco_drive": true,
-    "eco_crafting_worker": true,
-    "eco_storage_interface": true,
-    "eco_storage_system": true,
-    "eco_crafting_system": true,
-    "eco_computation_drive": true
-  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -75,18 +65,8 @@
   "hostilenetworks": {
     "io_port_mode": true
   },
-  "jade_access": {
-    "held_item": true,
-    "sign": true,
-    "block": true,
-    "entity": true,
-    "entity_variant": true
-  },
   "ftbquests": {
     "barrier": true
-  },
-  "fluidlogistics": {
-    "blaze_cooler_icon": true
   },
   "maid_storage_manager": {
     "virtual_frame": true
@@ -106,9 +86,6 @@
     "jade_chamber": true,
     "jade_wireless": true
   },
-  "balm": {
-    "jade": true
-  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -120,16 +97,6 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
-  },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
-  "exposure": {
-    "lightroom": true,
-    "photograph_frame": true
-  },
-  "jadeaddons.lootr": {
-    "info": true
   },
   "create_mechanical_spawner": {
     "data": true
@@ -147,6 +114,49 @@
   "projectexpansion": {
     "provider": true
   },
+  "touhou_little_maid": {
+    "maid": true,
+    "shrine_lamp": true
+  },
+  "kaleidoscope_tavern": {
+    "barrel": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "neoecoae": {
+    "large_workstation_current_inputs": true,
+    "eco_computation_system": true,
+    "eco_drive": true,
+    "eco_crafting_worker": true,
+    "eco_storage_interface": true,
+    "eco_storage_system": true,
+    "eco_crafting_system": true,
+    "eco_computation_drive": true
+  },
+  "jade_access": {
+    "held_item": true,
+    "sign": true,
+    "block": true,
+    "entity": true,
+    "entity_variant": true
+  },
+  "fluidlogistics": {
+    "blaze_cooler_icon": true
+  },
+  "balm": {
+    "jade": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
   "kaleidoscope_cookery": {
     "chopping_board": true,
     "shawarma_spit": true,
@@ -155,19 +165,14 @@
     "millstone": true,
     "enamel_basin": true
   },
-  "touhou_little_maid": {
-    "maid": true,
-    "shrine_lamp": true
+  "toms_storage": {
+    "inventory_hopper": true,
+    "inventory_config": true,
+    "inventory_connector": true
   },
   "twilightforest": {
     "drying_rack": true,
     "chiseled_bookshelf_spawner": true,
     "quest_ram_wool": true
-  },
-  "kaleidoscope_tavern": {
-    "barrel": true
-  },
-  "waystones": {
-    "waystone": true
   }
 }

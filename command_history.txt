@@ -1,6 +1,4 @@
 /reload
-/kjs hand
-/reload
 /relk
 /reload
 /kjs hand
@@ -48,3 +46,5 @@
 /kubejs errors server
 /reload
 /summon minecraft:iron_golem
+/tacz reload
+/reload
